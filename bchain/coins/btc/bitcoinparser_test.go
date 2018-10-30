@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"mortdeus/blockbook/bchain"
+	"blockbook/bchain"
 
 	"github.com/jakm/btcutil/chaincfg"
 )

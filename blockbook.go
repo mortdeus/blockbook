@@ -14,12 +14,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mortdeus/blockbook/api"
-	"github.com/mortdeus/blockbook/bchain"
-	"github.com/mortdeus/blockbook/bchain/coins"
-	"github.com/mortdeus/blockbook/common"
-	"github.com/mortdeus/blockbook/db"
-	"github.com/mortdeus/blockbook/server"
+	"blockbook/api"
+	"blockbook/bchain"
+	"blockbook/bchain/coins"
+	"blockbook/common"
+	"blockbook/db"
+	"blockbook/server"
 
 	"github.com/golang/glog"
 	"github.com/juju/errors"
