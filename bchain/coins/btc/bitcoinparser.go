@@ -1,11 +1,12 @@
 package btc
 
 import (
-	"blockbook/bchain"
 	"bytes"
 	"encoding/binary"
 	"encoding/hex"
 	"math/big"
+
+	"blockbook/bchain"
 
 	vlq "github.com/bsm/go-vlq"
 	"github.com/btcsuite/btcd/blockchain"

@@ -1,7 +1,6 @@
 package btc
 
 import (
-	"blockbook/bchain"
 	"bytes"
 	"context"
 	"encoding/hex"
@@ -12,6 +11,8 @@ import (
 	"net"
 	"net/http"
 	"time"
+
+	"blockbook/bchain"
 
 	"github.com/btcsuite/btcd/wire"
 

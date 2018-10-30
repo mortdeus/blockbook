@@ -1,11 +1,12 @@
 package bch
 
 import (
-	"blockbook/bchain"
-	"blockbook/bchain/coins/btc"
 	"encoding/hex"
 	"encoding/json"
 	"math/big"
+
+	"blockbook/bchain"
+	"blockbook/bchain/coins/btc"
 
 	"github.com/golang/glog"
 	"github.com/jakm/bchutil"

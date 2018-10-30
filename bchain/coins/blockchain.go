@@ -59,6 +59,7 @@ func init() {
 	BlockChainFactories["Myriad"] = myriad.NewMyriadRPC
 	BlockChainFactories["Groestlcoin"] = grs.NewGroestlcoinRPC
 	BlockChainFactories["Groestlcoin Testnet"] = grs.NewGroestlcoinRPC
+	BlockChainFactories["Ravencoin"] = rvn.NewRavencoinRPC
 }
 
 // GetCoinNameFromConfig gets coin name and coin shortcut from config file
